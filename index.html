@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>СтройГрад — Строительная компания | Строим с душой, сдаём в срок</title>
+  <meta name="description" content="СтройГрад — профессиональная строительная компания в Москве. Строительство домов, ремонт, отделка, проектирование. Более 340 объектов с 2008 года." />
+  <meta name="keywords" content="строительная компания, строительство домов, ремонт квартир, отделка, проектирование, Москва" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a class="nav-logo" href="index.html">
+      <div class="nav-logo-icon">
+        <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      </div>
+      Строй<span>Град</span>
+    </a>
+    <div class="nav-links">
+      <a class="nav-link active" href="index.html">Главная</a>
+      <a class="nav-link" href="services.html">Услуги</a>
+      <a class="nav-link" href="team.html">Команда</a>
+      <a class="nav-link" href="prices.html">Цены</a>
+      <a class="nav-link" href="contact.html">Контакты</a>
+    </div>
+    <a class="btn btn-primary btn-sm nav-cta" href="contact.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.62 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.96-.87a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      Получить консультацию
+    </a>
+    <div class="burger" id="burger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a class="nav-link active" href="index.html">Главная</a>
+  <a class="nav-link" href="services.html">Услуги</a>
+  <a class="nav-link" href="team.html">Команда</a>
+  <a class="nav-link" href="prices.html">Цены</a>
+  <a class="nav-link" href="contact.html">Контакты</a>
+  <a class="btn btn-primary" href="contact.html">Получить консультацию</a>
+</div>
+
+<div class="page-wrap">
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-accent"></div>
+    <div class="hero-accent2"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-label">Строим с 2008 года</div>
+        <h1>Строительство<br><em>вашей мечты</em><br>под ключ</h1>
+        <p class="hero-sub">Надёжная строительная компания в Москве и области. Полный цикл: от проектирования до сдачи объекта. Гарантия на все виды работ.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="contact.html">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.62 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.96-.87a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Бесплатная консультация
+          </a>
+          <a class="btn btn-secondary" style="border-color:rgba(255,255,255,.4);color:#fff" href="services.html">Наши услуги →</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-val counter" data-target="340">340+</span>
+            <div class="hero-stat-label">Объектов сдано</div>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-val counter" data-target="16">16+</span>
+            <div class="hero-stat-label">Лет на рынке</div>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-val counter" data-target="98" data-suffix="%">98%</span>
+            <div class="hero-stat-label">Довольных клиентов</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card-wrap">
+          <div class="hero-card">
+            <div class="hero-card-icon">
+              <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h4>Дома и коттеджи</h4>
+            <p>Строительство загородных домов из кирпича, газобетона и бруса. Под ключ с отделкой.</p>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card-icon">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+            <h4>Коммерческое строительство</h4>
+            <p>Офисы, склады, торговые центры и административные здания любой сложности.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURES ========== -->
+  <section class="features">
+    <div class="container">
+      <div class="features-header reveal">
+        <div class="section-label">Почему выбирают нас</div>
+        <h2 class="section-title">Преимущества СтройГрада</h2>
+        <p class="section-desc">Мы не просто строим — мы берём на себя полную ответственность за результат. От первого звонка до торжественного вручения ключей.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal reveal-delay-1">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Гарантия 5 лет</h3>
+          <p>Официальная гарантия на конструктив и все виды выполненных работ. Подтверждаем договором.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-2">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Сдача в срок</h3>
+          <p>97% объектов сданы строго в согласованный срок. За каждый день просрочки — неустойка 0.1%.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-3">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h3>Фиксированная цена</h3>
+          <p>Смета не меняется после подписания договора. Никаких скрытых доплат и «неожиданных» расходов.</p>
+        </div>
+        <div class="feature-card reveal reveal-delay-4">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Опытная команда</h3>
+          <p>Более 120 специалистов с опытом от 10 лет. Все аттестованы и имеют профильное образование.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES PREVIEW ========== -->
+  <section class="services-preview">
+    <div class="container">
+      <div class="services-preview-header reveal">
+        <div>
+          <div class="section-label">Что мы строим</div>
+          <h2 class="section-title">Наши услуги</h2>
+        </div>
+        <a class="btn btn-secondary" href="services.html">Все услуги →</a>
+      </div>
+      <div class="services-cards">
+        <a class="svc-card" href="services.html">
+          <div class="svc-card-top" style="background:linear-gradient(135deg,#1F6B40,#2E8B57)">
+            <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <div class="svc-card-body">
+            <h3>Строительство домов</h3>
+            <p>Частные дома, коттеджи, таунхаусы — кирпич, газобетон, брус, каркас. Любой стиль и бюджет.</p>
+            <div class="svc-card-link">Подробнее <span>→</span></div>
+          </div>
+        </a>
+        <a class="svc-card reveal reveal-delay-1" href="services.html">
+          <div class="svc-card-top" style="background:linear-gradient(135deg,#1B4F8A,#2563A8)">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <div class="svc-card-body">
+            <h3>Капитальный ремонт</h3>
+            <p>Ремонт квартир, офисов и коммерческих помещений. Дизайн-проект, материалы, отделка — всё включено.</p>
+            <div class="svc-card-link">Подробнее <span>→</span></div>
+          </div>
+        </a>
+        <a class="svc-card reveal reveal-delay-2" href="services.html">
+          <div class="svc-card-top" style="background:linear-gradient(135deg,#7A3A00,#C06000)">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          </div>
+          <div class="svc-card-body">
+            <h3>Проектирование</h3>
+            <p>Архитектурные и инженерные проекты. Согласование в госорганах. Авторский надзор включён.</p>
+            <div class="svc-card-link">Подробнее <span>→</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TEAM PREVIEW ========== -->
+  <section class="team-preview">
+    <div class="container">
+      <div class="team-preview-header reveal">
+        <div>
+          <div class="section-label">Профессионалы</div>
+          <h2 class="section-title">Наша команда</h2>
+        </div>
+        <a class="btn btn-secondary" href="team.html">Все специалисты →</a>
+      </div>
+      <div class="team-cards">
+        <div class="team-card reveal reveal-delay-1">
+          <div class="team-avatar" style="background:linear-gradient(135deg,#1F6B40,#3FAD6E)">
+            <img src="/img/pexels-photo-6474475.jpeg" class="team-avatar-img" alt="Сотрудник">
+          </div>
+          <div class="team-card-body">
+            <h3>Алексей Смирнов</h3>
+            <div class="role">Генеральный директор</div>
+            <div class="exp">Опыт: 22 года</div>
+          </div>
+        </div>
+        <div class="team-card reveal reveal-delay-2">
+          <div class="team-avatar" style="background:linear-gradient(135deg,#1B4F8A,#2563A8)">
+            <img src="/img/pexels-photo-8482558.jpeg" class="team-avatar-img" alt="Сотрудник">
+          </div>
+          <div class="team-card-body">
+            <h3>Дмитрий Козлов</h3>
+            <div class="role">Главный инженер</div>
+            <div class="exp">Опыт: 18 лет</div>
+          </div>
+        </div>
+        <div class="team-card reveal reveal-delay-3">
+          <div class="team-avatar" style="background:linear-gradient(135deg,#6B2F8A,#9B4DC8)">
+           <img src="/img/pexels-photo-8447844.jpeg" class="team-avatar-img" alt="Сотрудник">
+          </div>
+          <div class="team-card-body">
+            <h3>Наталья Воронова</h3>
+            <div class="role">Руководитель дизайна</div>
+            <div class="exp">Опыт: 14 лет</div>
+          </div>
+        </div>
+        <div class="team-card reveal reveal-delay-4">
+          <div class="team-avatar" style="background:linear-gradient(135deg,#7A3A00,#C06000)">
+            <img src="/img/pexels-hanna-payasnikava-54155044-7788227.jpg" class="team-avatar-img" alt="Сотрудник">
+          </div>
+          <div class="team-card-body">
+            <h3>Сергей Петров</h3>
+            <div class="role">Начальник производства</div>
+            <div class="exp">Опыт: 20 лет</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== REVIEWS ========== -->
+  <section class="reviews">
+    <div class="container">
+      <div class="reviews-header reveal">
+        <div class="section-label">Отзывы клиентов</div>
+        <h2 class="section-title">Что говорят наши заказчики</h2>
+        <p class="section-desc" style="margin:0 auto">Более 340 довольных клиентов по всей Московской области. Читайте реальные истории.</p>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card reveal reveal-delay-1">
+          <div class="review-stars"><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span></div>
+          <p class="review-text">«Заказывали строительство дома из газобетона площадью 180 м². Сдали на две недели раньше срока! Качество отделки превзошло все ожидания. Команда очень профессиональная, всегда на связи.»</p>
+          <div class="review-author">
+            <div class="review-ava" style="background:linear-gradient(135deg,#1F6B40,#3FAD6E)">МО</div>
+            <div>
+              <div class="review-name">Михаил Орлов</div>
+              <div class="review-project">Дом 180 м², Подмосковье, 2024</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal reveal-delay-2">
+          <div class="review-stars"><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span></div>
+          <p class="review-text">«Делали капитальный ремонт офиса 350 кв.м. Всё согласовали за 3 дня, смета не изменилась ни на рубль. Работы выполнены чисто, аккуратно, в срок. Рекомендую всем знакомым.»</p>
+          <div class="review-author">
+            <div class="review-ava" style="background:linear-gradient(135deg,#1B4F8A,#2563A8)">ЕС</div>
+            <div>
+              <div class="review-name">Екатерина Семёнова</div>
+              <div class="review-project">Ремонт офиса, Москва, 2024</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal reveal-delay-3">
+          <div class="review-stars"><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span></div>
+          <p class="review-text">«Обратились для строительства складского комплекса. Проект сделали быстро, все согласования взяли на себя. Комплекс сдан в эксплуатацию точно по плану. Отдельное спасибо Сергею Петрову.»</p>
+          <div class="review-author">
+            <div class="review-ava" style="background:linear-gradient(135deg,#7A3A00,#C06000)">АК</div>
+            <div>
+              <div class="review-name">Андрей Кириллов</div>
+              <div class="review-project">Складской комплекс, 2023</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="cta-band">
+    <div class="cta-band-bg"></div>
+    <div class="container">
+      <div>
+        <h2>Готовы начать свой проект?</h2>
+        <p>Оставьте заявку — и наш менеджер свяжется с вами в течение 15 минут.</p>
+      </div>
+      <div class="cta-band-actions">
+        <a class="btn btn-white" href="contact.html">Записаться на консультацию</a>
+        <a class="btn btn-secondary" style="border-color:rgba(255,255,255,.5);color:#fff" href="tel:+74955550123">+7 (495) 555-01-23</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="nav-logo" href="index.html" style="color:#fff">
+            <div class="nav-logo-icon">
+              <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            Строй<span>Град</span>
+          </a>
+          <p>Строительная компания полного цикла. Работаем в Москве и Московской области с 2008 года. Более 340 сданных объектов.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Услуги</h4>
+          <ul>
+            <li><a href="services.html">Строительство домов</a></li>
+            <li><a href="services.html">Капитальный ремонт</a></li>
+            <li><a href="services.html">Отделочные работы</a></li>
+            <li><a href="services.html">Проектирование</a></li>
+            <li><a href="services.html">Фундаментные работы</a></li>
+            <li><a href="services.html">Кровельные работы</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Компания</h4>
+          <ul>
+            <li><a href="team.html">О нас</a></li>
+            <li><a href="team.html">Наша команда</a></li>
+            <li><a href="prices.html">Цены</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Контакты</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            г. Москва, ул. Строителей, 42, офис 301
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.62 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.96-.87a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            +7 (495) 555-01-23
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            info@stroygrad.ru
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 СтройГрад. Все права защищены.</p>
+        <p>ИНН 7712345678 · ОГРН 1087746123456</p>
+      </div>
+    </div>
+  </footer>
+
+</div><!-- /page-wrap -->
+<script src="js/script.js"></script>
+</body>
+</html>

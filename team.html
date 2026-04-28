@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Команда — СтройГрад | Наши специалисты</title>
+  <meta name="description" content="Более 120 специалистов с опытом от 10 лет: инженеры-проектировщики, архитекторы, прорабы, сметчики. Познакомьтесь с ключевыми сотрудниками СтройГрада." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <a class="nav-logo" href="index.html">
+      <div class="nav-logo-icon">
+        <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      </div>
+      Строй<span>Град</span>
+    </a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">Главная</a>
+      <a class="nav-link" href="services.html">Услуги</a>
+      <a class="nav-link active" href="team.html">Команда</a>
+      <a class="nav-link" href="prices.html">Цены</a>
+      <a class="nav-link" href="contact.html">Контакты</a>
+    </div>
+    <a class="btn btn-primary btn-sm nav-cta" href="contact.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.62 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.96-.87a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      Получить консультацию
+    </a>
+    <div class="burger" id="burger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a class="nav-link" href="index.html">Главная</a>
+  <a class="nav-link" href="services.html">Услуги</a>
+  <a class="nav-link active" href="team.html">Команда</a>
+  <a class="nav-link" href="prices.html">Цены</a>
+  <a class="nav-link" href="contact.html">Контакты</a>
+  <a class="btn btn-primary" href="contact.html">Получить консультацию</a>
+</div>
+
+<div class="page-wrap">
+
+  <!-- ========== PAGE HERO ========== -->
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Главная</a> / <span>Команда</span>
+      </div>
+      <h1>Наша команда</h1>
+      <p>Более 120 специалистов с опытом от 10 лет. Каждый — профессионал своего дела.</p>
+    </div>
+  </div>
+
+  <!-- ========== TEAM GRID ========== -->
+  <section class="team-section">
+    <div class="container">
+      <div class="team-full-grid">
+
+        <div class="team-full-card reveal">
+          <div class="team-full-avatar">
+          <img src="/img/pexels-photo-6474475.jpeg" class="team-avatar-img" alt="Сотрудник">
+          </div>
+          <div class="team-full-body">
+            <h3>Алексей Смирнов</h3>
+            <div class="team-role">Генеральный директор</div>
+            <div class="team-info-list">
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Опыт: 22 года в строительстве
+              </div>
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                МГСУ, инженер-строитель
+              </div>
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Руководил 80+ объектами
+              </div>
+            </div>
+            <div><span class="team-cert">MBA</span><span class="team-cert">ISO 9001</span><span class="team-cert">СРО</span></div>
+          </div>
+        </div>
+
+        <div class="team-full-card reveal reveal-delay-1">
+          <div class="team-full-avatar">
+          <img src="/img/pexels-photo-8482558.jpeg" class="team-avatar-img" alt="Сотрудник">
+          </div>
+          <div class="team-full-body">
+            <h3>Дмитрий Козлов</h3>
+            <div class="team-role">Главный инженер-проектировщик</div>
+            <div class="team-info-list">
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Опыт: 18 лет
+              </div>
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                НИУ МГСУ, ПГС
+              </div>
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                150+ разработанных проектов
+              </div>
+            </div>
+            <div><span class="team-cert">AutoCAD</span><span class="team-cert">Revit</span><span class="team-cert">SCAD</span></div>
+          </div>
+        </div>
+
+        <div class="team-full-card reveal reveal-delay-2">
+          <div class="team-full-avatar">
+          <img src="/img/pexels-photo-8447844.jpeg" class="team-avatar-img" alt="Сотрудник">
+          </div>
+          <div class="team-full-body">
+            <h3>Наталья Воронова</h3>
+            <div class="team-role">Руководитель отдела дизайна</div>
+            <div class="team-info-list">
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Опыт: 14 лет
+              </div>
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                МАРХИ, архитектура
+              </div>
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Победитель AD Awards 2023
+              </div>
+            </div>
+            <div><span class="team-cert">3ds Max</span><span class="team-cert">ArchiCAD</span></div>
+          </div>
+        </div>
+
+        <div class="team-full-card reveal">
+          
+          <div class="team-full-avatar">
+          <img src="/img/pexels-hanna-payasnikava-54155044-7788227.jpg" class="team-avatar-img" alt="Сотрудник">
+          </div>
+
+          <div class="team-full-body">
+            <h3>Сергей Петров</h3>
+            <div class="team-role">Начальник строительного производства</div>
+            <div class="team-info-list">
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Опыт: 20 лет
+              </div>
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                МГСУ, технология строительства
+              </div>
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Монолит, ж/б, металлоконструкции
+              </div>
+            </div>
+            <div><span class="team-cert">ПТО</span><span class="team-cert">НАКС</span><span class="team-cert">СРО</span></div>
+          </div>
+        </div>
+
+        <div class="team-full-card reveal reveal-delay-1">
+          <div class="team-full-avatar">
+          <img src="/img/pexels-photo-6474469.jpeg" class="team-avatar-img" alt="Сотрудник">
+          </div>
+          <div class="team-full-body">
+            <h3>Ирина Захарова</h3>
+            <div class="team-role">Менеджер по работе с клиентами</div>
+            <div class="team-info-list">
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Опыт: 11 лет
+              </div>
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                РЭУ, управление проектами
+              </div>
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                Ведёт 300+ клиентских баз
+              </div>
+            </div>
+            <div><span class="team-cert">PMP</span><span class="team-cert">CRM-эксперт</span></div>
+          </div>
+        </div>
+
+        <div class="team-full-card reveal reveal-delay-2">
+          <div class="team-full-avatar">
+          <img src="/img/pexels-photo-8960992.jpeg" class="team-avatar-img" alt="Сотрудник">
+          </div>
+          <div class="team-full-body">
+            <h3>Антон Белов</h3>
+            <div class="team-role">Главный сметчик</div>
+            <div class="team-info-list">
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Опыт: 16 лет
+              </div>
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                МГСУ, экономика строительства
+              </div>
+              <div class="team-info-item">
+                <svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                Допуск по ФЗ-44, ФЗ-223
+              </div>
+            </div>
+            <div><span class="team-cert">Гранд-Смета</span><span class="team-cert">АРПС</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="cta-band">
+    <div class="cta-band-bg"></div>
+    <div class="container">
+      <div>
+        <h2>Хотите работать с профессионалами?</h2>
+        <p>Свяжитесь с нами — мы подберём команду специалистов под ваш проект.</p>
+      </div>
+      <a class="btn btn-white" href="contact.html">Получить консультацию</a>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="nav-logo" href="index.html" style="color:#fff">
+            <div class="nav-logo-icon">
+              <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            Строй<span>Град</span>
+          </a>
+          <p>Строительная компания полного цикла. Работаем в Москве и Московской области с 2008 года.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Услуги</h4>
+          <ul>
+            <li><a href="services.html">Строительство домов</a></li>
+            <li><a href="services.html">Капитальный ремонт</a></li>
+            <li><a href="services.html">Отделочные работы</a></li>
+            <li><a href="services.html">Проектирование</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Компания</h4>
+          <ul>
+            <li><a href="team.html">Наша команда</a></li>
+            <li><a href="prices.html">Цены</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Контакты</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.62 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.96-.87a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            +7 (495) 555-01-23
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            info@stroygrad.ru
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 СтройГрад. Все права защищены.</p>
+        <p>ИНН 7712345678 · ОГРН 1087746123456</p>
+      </div>
+    </div>
+  </footer>
+
+</div><!-- /page-wrap -->
+<script src="js/script.js"></script>
+</body>
+</html>
